@@ -24,8 +24,7 @@ let user = {
   },
   logBlogs() {
     this.blogs.forEach((blog) => {
-      console.log(blog.title);
-      console.log(blog.likes);
+      console.log(blog.title, blog.likes);
     });
   },
 };

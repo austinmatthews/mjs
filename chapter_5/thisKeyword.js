@@ -1,16 +1,16 @@
 // object literals
 
 let user = {
-  name: "Austin",
+  name: 'Austin',
   age: 30,
-  email: "austm14@gmail.com",
-  location: "Atlanta",
-  blogs: ["why mac and cheese rules", "10 things to do"],
+  email: 'austm14@gmail.com',
+  location: 'Atlanta',
+  blogs: ['why mac and cheese rules', '10 things to do'],
   login() {
-    console.log("the user logged in");
+    console.log('the user logged in');
   },
   logout() {
-    console.log("The user logged out");
+    console.log('The user logged out');
   },
   logBlogs() {
     this.blogs.forEach((blog) => console.log(blog));
@@ -19,7 +19,7 @@ let user = {
 
 user.login();
 
-const name = "Austin";
+const name = 'Austin';
 
 console.log(name.toUpperCase());
 
