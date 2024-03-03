@@ -10,3 +10,21 @@
 .btn:focus {
   outline: none !important;
 }
+.username {
+  font-weight: bold;
+}
+.time {
+  font-size: 0.7em;
+  color: rgb(163, 163, 163);
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+/* Fade-Out Effect */
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+}
