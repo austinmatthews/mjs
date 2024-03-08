@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <style>
+      body {
+        font-size: 1.5em;
+      }
+      .containder {
+        margin: 40px;
+        margin-top: 60px;
+      }
+      button {
+        width: 200px;
+        background: #eee;
+        padding: 10px;
+        margin: 20px auto;
+        border: none;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus minus
+        impedit explicabo Doloribus fugit assumenda dignissimos porro? Optio
+        repellat officiis distinctio quae tempore tempora consequuntur
+        laudantium nam rem!
+        <span class="tooltip" data-message="I'm a tooltip!!"
+          >quaerat cumque.</span
+        >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus minus
+        impedit explicabo
+      </p>
+      <h3>Services</h3>
+      <div class="dropdown">
+        <div class="trigger">Awesome T-Shirt designs</div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aut et
+          ab praesentium ut consequatur facilis, eligendi error recusandae
+          reiciendis quo nihil cum facere non incidunt, qui, pariatur nemo.
+          Enim!
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="trigger">Cool Sticker Printing</div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aut et
+          ab praesentium ut consequatur facilis, eligendi error recusandae
+          reiciendis quo nihil cum facere non incidunt, qui, pariatur nemo.
+          Enim!
+        </div>
+      </div>
+      <h3>More Information</h3>
+      <div class="tabs">
+        <ul>
+          <li data-target="#about" class="trigger active">About</li>
+          <li data-target="#delivery" class="trigger">Delivery Info</li>
+          <li data-target="#returns" class="trigger">Returns Info</li>
+        </ul>
+        <div id="about" class="content active">
+          <h4>about</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit,
+            dolore? Quas similique praesentium vitae consectetur veniam vero
+            excepturi officiis impedit qui suscipit, eaque ipsam in tempora
+            eligendi nisi rem voluptate!
+          </p>
+        </div>
+        <div id="delivery" class="content">
+          <h4>delivery</h4>
+          <p>
+            This is the delivery section of the app. This is the delivery
+            section of the app. This is the delivery section of the app. This is
+            the delivery section of the app.
+          </p>
+        </div>
+        <div id="returns" class="content">
+          <h4>returns</h4>
+          <p>
+            Returns go here so bring your stuff that you want to return because
+            it is going to be returned soon or maybe not if you don't bring it
+            fast enough
+          </p>
+        </div>
+      </div>
+      <div>
+        <button class="snackbar-trigger">Click Me</button>
+      </div>
+    </div>
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
